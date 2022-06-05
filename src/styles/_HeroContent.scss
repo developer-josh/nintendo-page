@@ -1,0 +1,27 @@
+/* parent container */
+.hero-container {
+  max-height: 70vh;
+  background-color: #d6f0fa;
+}
+
+/* keeps featured image scaling with screen width */
+.hero-container > img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* wrapper for featured img, keeps esrb overlapping img */
+.image-wrapper {
+  position: relative;
+}
+
+/* purchase button */
+#purchase-btn > i {
+  color: #ffffff;
+}
+
+#purchase-btn:hover {
+  animation-name: buttonJiggle;
+  animation-duration: 0.5s;
+}

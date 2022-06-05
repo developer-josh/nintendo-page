@@ -1,0 +1,17 @@
+/* parent wrapper */
+.also-viewed-wrapper {
+  max-width: 100vw;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 2rem 0;
+}
+
+/* child wrapper */
+.row-wrapper {
+  width: fit-content;
+}
+
+/* targets hearts within also viewed cards */
+.platform-options > i {
+  @apply text-red-500 cursor-pointer hover:scale-110;
+}

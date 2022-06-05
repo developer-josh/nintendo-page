@@ -1,0 +1,15 @@
+/* general styling */
+.nav-item,
+.nav-item > i {
+  @apply mx-1 lg:mx-2;
+}
+
+/* on hover */
+.nav-item:hover {
+  @apply text-red-500;
+}
+
+/* bottom nav section */
+.nav-item.nav-bottom {
+  @apply px-3;
+}

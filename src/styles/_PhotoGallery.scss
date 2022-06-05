@@ -1,0 +1,19 @@
+/* photo gallery wrapper */
+.photo-gallery-wrapper {
+  background-color: #d6f0fa;
+}
+
+/* gallery navigation */
+.gallery-nav {
+  @apply flex flex-row items-center justify-center gap-5 mt-5;
+}
+
+/* icons within gallery nav */
+.gallery-nav > div > i {
+  @apply hover:scale-110 cursor-pointer hover:text-blue-400 m-4;
+}
+
+/* photo item */
+.gallery-item {
+  @apply cursor-pointer hover:opacity-30;
+}

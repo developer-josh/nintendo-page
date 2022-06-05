@@ -1,0 +1,12 @@
+/* alternates background colors each row */
+.bg-check > div:nth-child(2n + 1) {
+  background-color: #efefef;
+}
+
+.bg-check > div {
+  @apply p-2;
+}
+
+.gray-bg {
+  background-color: #efefef;
+}
