@@ -6,19 +6,19 @@ const PhotoGallery = () => {
       {/* Photos */}
       <div className="grid gap-2 grid-cols-2 md:grid-cols-4">
         <div className="col-span-2 md:row-span-2 gallery-item">
-          <img src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot01?v=2021120220" />
+          <img alt="" src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot01?v=2021120220" />
         </div>
         <div className="col-span-1 gallery-item">
-          <img src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot02?v=2021120220" />
+          <img alt="" src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot02?v=2021120220" />
         </div>
         <div className="col-span-1 gallery-item">
-          <img src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot03?v=2021120220" />
+          <img alt="" src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot03?v=2021120220" />
         </div>
         <div className="col-span-1 gallery-item">
-          <img src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot04?v=2021120220" />
+          <img alt="" src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot04?v=2021120220" />
         </div>
         <div className="col-span-1 gallery-item">
-          <img src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot05?v=2021120220" />
+          <img alt="" src="https://assets.nintendo.com/image/upload/c_limit,f_auto,q_auto,w_1920/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot05?v=2021120220" />
         </div>
       </div>
 
